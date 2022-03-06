@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="Nombre">Nombre: </label>
+        <input type="text" required="required" name="Nombre" id="Nombre" title="Introduce tu nombre" autocomplete="name"> <br><br>
+        
+        <label for="Apellidos">Apellidos: </label>
+        <input type="text" required="required" name="Apellidos" id="Apellidos" title="Introduce tus apellidos" autocomplete="family-name"> <br><br>
+
+        <label for="FechaNacimiento">Fecha de nacimiento: </label>
+        <input type="date"  required="required" name="FechaNacimiento" id="FechaNacimiento" title="Introduce tu fecha de nacimiento" autocomplete="bday"><br><br>
+
+        <label for="eMail">e-mail: </label>
+        <input type="email"  required="required" name="eMail" id="eMail" title="Introduce tu e-mail" autocomplete="email"><br><br>
+
+        
+        <label for="Telefono">Telefono: +</label>
+        <input type="number" name="Telefono" id="Telefono" placeholder="11" pattern="[0-9]{2}">
+        <input type="tel" name="Telefono" id="Telefono" title="Introduce tu número de telefono" autocomplete="mobile" placeholder="123456789" pattern="[0-9]{9}"><br><br>
+
+        <label for="Password">Contraseña: </label>
+        <input type="password"  required="required" name="Password" id="Password" title="Introduce tu contraseña" autocomplete="current-password"><br><br>
+
+        <label for="Colorfavorito">Color favorito: </label>
+        <input type="text" name="Colorfavorito" id="Colorfavorito" title="Introduce tu color favorito" ><br><br>
+
+        <input type="submit" value="Enviar">
+        
+    </form>
+</body>
+</html>
